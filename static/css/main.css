@@ -8,11 +8,11 @@ License: none (public domain)
 /* Modified by Tyler Carr */
 
 :root {
-    --main-bg-color: #1c2833;
-    --code-bg-color: #17202a;
-    --accent-color: #C7254E;
+    --main-bg-color: #2e3440;
+    --code-bg-color: #191d23;
+    --accent-color: #b48ead;
     --tab-bg-hover: var(--code-bg-color);
-    --info-bg-color: var(--code-gb-color);
+    --info-bg-color: var(--code-bg-color);
 }
 
 
@@ -83,7 +83,7 @@ header, #wrapper {
 
 a {
     text-decoration: none;
-    color: #15A9DB;
+    color: #88c0d0;
 }
 
 ul {
@@ -298,7 +298,7 @@ nav a:hover {
     color: var(--accent-color);
 }
 nav li.selected a {
-    background-color: #15A9DB;
+    background-color: #88c0d0;
     color: #FFF;
 }
 
@@ -309,7 +309,7 @@ header .header_box {
 .site_title {
     position: relative; 
     bottom: 15px; 
-    color: #15A9DB
+    color: #88c0d0
 }
 header h1 {
     font-size: 1.5em;
@@ -368,8 +368,8 @@ code {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     box-sizing: border-box;
-    background-color: #17202a;
-    color: #C7254E;
+    background-color: var(--code-bg-color);
+    color: var(--accent-color);
     font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
     font-size: 12.6px;
     line-height: 18px;
